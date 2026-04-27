@@ -15,7 +15,7 @@ from pyspark.sql.window import Window
 
 # COMMAND ----------
 
-# MAGIC %run /Workspace/Users/naveengowda7796@gmail.com/consolidated_pipeline/setup/Utilities
+# MAGIC %run /Workspace/Users/xxx/consolidated_pipeline/setup/Utilities
 
 # COMMAND ----------
 
