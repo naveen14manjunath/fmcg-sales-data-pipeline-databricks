@@ -15,7 +15,7 @@ The pipeline processes raw sales data from cloud storage, transforms it into str
 
 The pipeline follows a simple and scalable **Medallion Architecture**:
 
-* **Bronze** → Raw data ingestion from S3 with metadata
+* **Bronze** → Raw data ingestion from AWS S3 with metadata
 * **Silver** → Data cleaning, validation, and transformation
 * **Gold** → Business-ready fact and dimension tables
 
@@ -24,7 +24,7 @@ The pipeline follows a simple and scalable **Medallion Architecture**:
 ## 🔄 End-to-End Data Pipeline Flow
 
 ```text
-S3 (Raw Data)
+AWS S3 (Raw Data)
    ↓
 Bronze Layer (Raw Delta Tables)
    ↓
@@ -141,6 +141,7 @@ dashboard/
 
 * Built a **production-style ETL pipeline**
 * Designed for **scalability and performance**
+* Developed **BI dashboard** for Sales performance Overview
 * Supports **incremental data processing**
 * Converts raw data into **actionable insights**
 
