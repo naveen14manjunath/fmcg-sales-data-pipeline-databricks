@@ -64,6 +64,7 @@ BI Dashboard (Insights & Reporting)
 
 The model follows a **star schema**, optimized for analytics and reporting.
 
+ETL data pipeline Job task:
 ![ETL pipeline job](dashboard/etl.png)
 ---
 
